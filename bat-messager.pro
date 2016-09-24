@@ -13,21 +13,19 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        chat.cpp \
     controllers/chat.cpp \
-    user.cpp \
     models/user.cpp \
-    userList.cpp \
     views/userList.cpp \
-    views/chatFlow.cpp
+    views/chatFlow.cpp \
+    controllers/auth.cpp \
+    controllers/new_chat.cpp
 
-HEADERS  += chat.h \
-    controllers/chat.h \
-    user.h \
+HEADERS  += controllers/chat.h \
     models/user.h \
-    userlist.h \
     views/userList.h \
-    views/chatFlow.h
+    views/chatFlow.h \
+    controllers/auth.h \
+    controllers/new_chat.h
 
 FORMS    += chat.ui \
     auth.ui \

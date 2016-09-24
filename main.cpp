@@ -1,4 +1,4 @@
-#include "chat.h"
+#include "controllers/chat.h"
 #include <QApplication>
 
 int main(int argc, char *argv[])
