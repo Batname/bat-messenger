@@ -6,6 +6,7 @@ Auth::Auth(QWidget *parent) :
     ui(new Ui::Auth)
 {
     ui->setupUi(this);
+    ui->menuBar->show();
 }
 
 Auth::~Auth()
