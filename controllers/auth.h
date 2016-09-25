@@ -8,7 +8,7 @@ namespace Ui {
 class Auth;
 }
 
-class Auth : public QWidget
+class Auth : public QMainWindow
 {
     Q_OBJECT
 

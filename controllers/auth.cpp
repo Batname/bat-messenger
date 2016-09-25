@@ -2,7 +2,7 @@
 #include "ui_auth.h"
 
 Auth::Auth(QWidget *parent) :
-    QWidget(parent),
+    QMainWindow(parent),
     ui(new Ui::Auth)
 {
     ui->setupUi(this);

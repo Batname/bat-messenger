@@ -1,8 +1,8 @@
-#include "chat.h"
+#include "auth.h"
 #include "ui_chat.h"
 
 Chat::Chat(QWidget *parent) :
-    QMainWindow(parent),
+    QWidget(parent),
     ui(new Ui::Chat)
 {
     ui->setupUi(this);
