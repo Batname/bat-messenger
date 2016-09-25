@@ -28,8 +28,8 @@ HEADERS  += controllers/chat.h \
     controllers/auth.h
 
 FORMS    += \
-    controllers/auth.ui \
-    controllers/chat.ui \
-    controllers/newchat.ui
+    forms/auth.ui \
+    forms/chat.ui \
+    forms/newchat.ui
 
 DISTFILES +=
