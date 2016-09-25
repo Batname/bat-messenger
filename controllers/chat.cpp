@@ -12,8 +12,3 @@ Chat::~Chat()
 {
     delete ui;
 }
-
-void Chat::on_pushButton_clicked()
-{
-    auth.show();
-}

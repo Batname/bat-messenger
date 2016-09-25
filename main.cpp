@@ -1,10 +1,10 @@
-#include "controllers/chat.h"
+#include "controllers/auth.h"
 #include <QApplication>
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    Chat w;
+    Auth w;
     w.show();
 
     return a.exec();

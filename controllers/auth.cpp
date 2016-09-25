@@ -12,3 +12,9 @@ Auth::~Auth()
 {
     delete ui;
 }
+
+void Auth::on_pushButton_clicked()
+{
+    chat.show();
+    this->hide();
+}
